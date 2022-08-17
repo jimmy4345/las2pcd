@@ -8,13 +8,13 @@ Required dependencies:
 - PCL (http://pointclouds.org/)
 - libLAS (https://www.liblas.org/)
 
-Ubuntu installation:
+Ubuntu 18.04 installation:
 	
 	apt-get install -y git cmake
 	
 	apt-get install -y libpcl-dev liblas-dev liblas-c-dev
 	
-	git clone -b ubuntu-singularity https://github.com/jimmy4345/las2pcd.git
+	git clone https://github.com/jimmy4345/las2pcd.git
 	
 	cd las2pcd
 	
